@@ -4,14 +4,11 @@ metadata:
   name: tanzu-java-web-app
   description: Tanzu Java Web App
   tags:
-    - app-accelerator
     - java
     - spring
-    - web
-    - tanzu
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tanzu-java-web-app'
 spec:
   type: service
   lifecycle: experimental
-  owner: default-team
+  owner: platform-services
